@@ -9,7 +9,7 @@ form {
     border: 5px solid #f1f1f1;
 }
 
-input[type=text], input[type=password], input[type=mail] {
+input[type=text], input[type=password], input[type=mail\] {
     width: 100%;
     padding: 16px 8px;
     margin: 8px 0;
@@ -54,14 +54,6 @@ span.psw {
     padding-top: 0;
     padding-bottom: 15px;
 }
-
-
-
-
-
-
-
-
 
 
 .icon {
