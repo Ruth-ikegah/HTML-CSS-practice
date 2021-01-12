@@ -1,67 +1,13 @@
 /* CSS for Sign-up form */
-
-body {
-    display:flex ;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+form{
+    display: grid;
+    font-size: 1.8em;
+    justify-content:center
 }
-
-form {
-    border: 5px solid #f1f1f1;
+.container{
+    font: 1em sans-serif;
 }
-
-input[type=text], input[type=password], input[type=mail\] {
-    width: 100%;
-    padding: 16px 8px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-
-
+.main-nav{
+    font-style: italic;
+    color:brown
 }
-
-button {
-    background-color: rgb(243, 82, 157);
-    color: white;
-    margin: 10px 0;
-    padding: 14px 0;
-    border: none;
-    cursor: grab;
-    width: 48%;
-}
-
-h1 {
-    text-align: center;
-    font-size: 20px;
-}
-
-button:hover {
-    opacity: 0.8;
-}
-
-.form-container {
-    text-align: center;
-    margin: 24px 50px 12px;
-}
-
-.container {
-    padding: 8px 0 ;
-    text-align: left;
-}
-
-span.psw {
-    float: right;
-    padding-top: 0;
-    padding-bottom: 15px;
-}
-
-
-.icon {
-    font-size: 110px;
-    display:flex;
-    justify-content: center;
-    color:rgb(243, 82, 157);
-}
-/* this is a comment */ 
