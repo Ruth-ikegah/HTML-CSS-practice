@@ -1,15 +1,30 @@
+body{
+  background-color:aquamarine
+}
+
+.main-nav{
+  font-size: 1.5em;
+  font-style: normal;
+}
 .dropbtn {
-    background-color: red;
+    background-color: rgb(102, 27, 27);
     color: white;
     padding: 18px;
     font-size: 16px;
     border: none;
     width: 160px;
+    
+    
   }
 
   .dropdown {
-    position: relative;
-    display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      position: relative;
+
   }
 
   .dropdown-content {
@@ -21,9 +36,6 @@
     z-index: 1;
   }
 
-  
-
-
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -34,19 +46,10 @@
 
   
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: rgb(204, 155, 155);}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-}
